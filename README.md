@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/github/license/pscedu/singularity-blat)
 
 # singularity-blat
-Singularity recipe for blat.
+Singularity recipe for [BLAT](https://github.com/djhshih/blat).
 
 ## Installing the container on Bridges 2
 Copy the
@@ -14,9 +14,9 @@ Copy the
 * `SIF` file
 * and the `blat` script
 
-to `/opt/packages/blat/36`.
+to `/opt/packages/BLAT/36`.
 
-Copy the file `modulefile.lua` to `/opt/modulefiles/blat` as `36.lua`.
+Copy the file `modulefile.lua` to `/opt/modulefiles/BLAT` as `36.lua`.
 
 ## Building the image using the recipe
 ### To build the image locally
