@@ -11,14 +11,10 @@ whatis("Version: 36")
 whatis("Category: Biological Sciences")
 whatis("URL: https://www.psc.edu/resources/software")
 whatis("Description: Blat produces two major classes of alignments (1) at the DNA level between two sequences that are of 95% or greater identity, but which may include large inserts; (2) at the protein or translated DNA level between sequences that are of 80% or greater identity and may also include large inserts.")
+whatis("Keywords: singularity bioinformatics")
 
 help([[
-blat 36
---------------
-
-Description
------------
-Blat produces two major classes of alignments (1) at the DNA level between two sequences that are of 95% or greater identity, but which may include large inserts; (2) at the protein or translated DNA level between sequences that are of 80% or greater identity and may also include large inserts.
+BLAT produces two major classes of alignments (1) at the DNA level between two sequences that are of 95% or greater identity, but which may include large inserts; (2) at the protein or translated DNA level between sequences that are of 80% or greater identity and may also include large inserts.
 
 To load the module, type
 
@@ -28,17 +24,9 @@ To unload the module, type
 
 > module unload blat/36
 
-Documentation
--------------
-https://genome.ucsc.edu/goldenpath/help/blatSpec.html
-
 For help, type
 
 > blat
-
-Repository
-----------
-https://github.com/s-andrews/blat
 
 Tools included in this module are
 
