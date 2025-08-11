@@ -6,5 +6,8 @@ From: quay.io/biocontainers/blat:36--0
     EMAIL icaoberg@psc.edu
     SUPPORT help@psc.edu
     REPOSITORY http://gitub.com/pscedu/singularity-tiger
-    COPYRIGHT Copyright © 2021 Pittsburgh Supercomputing Center. All Rights Reserved.    
+    COPYRIGHT Copyright © 2021-2025 Pittsburgh Supercomputing Center. All Rights Reserved.    
     VERSION 36
+
+%runscript
+    blat "$@"
